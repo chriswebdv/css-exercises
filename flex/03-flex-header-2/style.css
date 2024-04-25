@@ -20,9 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 8px;
 }
 
 .profile-image {
@@ -54,11 +52,15 @@ a {
   color: rebeccapurple;
 }
 
+
 ul {
+  display: flex;
+  gap: 16px;
   list-style-type: none;
 }
 
-.links {
+.left, .right {
   display: flex;
-  gap: 8px;
+  align-items: center;
+  gap: 16px;
 }
